@@ -30,7 +30,7 @@ class Window(QWidget):
             print("Selected country is %s" % (radiobutton.country))
 
 if __name__ == '__main__':
-
+    print("hello origin")
     app = QApplication(sys.argv)
     screen = Window()
     screen.show()
