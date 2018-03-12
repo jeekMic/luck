@@ -8,6 +8,7 @@ class Window(QWidget):
         layout = QGridLayout()
         self.setLayout(layout)
         radiobutton = QRadioButton()
+
         radiobutton.setChecked(True)
         radiobutton.country = "Brazil"
         radiobutton.setIcon(QIcon("./images/python.jpg"))
