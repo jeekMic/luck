@@ -1,13 +1,17 @@
 import sys
 import threading
 import time
+
+from PyQt5.QtGui import QPalette, QColor, QFont, QIcon, QBrush
 from PyQt5.QtWidgets import QWidget, QApplication, QInputDialog
 
 from lucky import Ui_Form
 
+
 class LuckyForm(QWidget, Ui_Form):
     def __init__(self, parent=None):
         super(LuckyForm, self).__init__(parent)
+
         self.flag = False
         self.count = 0
         self.initData()
@@ -16,16 +20,54 @@ class LuckyForm(QWidget, Ui_Form):
         self.list_check = []
 
 
+
     def initData(self):
-        # self.data = ["宋江", "卢俊义", "魏定国 ", "欧 鹏", "燕 顺", "凌 振", "蒋 敬", "吕 方", "郭 盛", "安道全", "皇甫端 ", "王 英 ", "扈三娘", "孔 亮"]
-         self.data = []
+        self.data = ["宋江", "卢俊义", "魏定国 ", "欧 鹏", "燕 顺", "凌 振", "蒋 敬", "吕 方", "郭 盛", "安道全", "皇甫端 ", "王 英 ", "扈三娘", "孔 亮", "孙悟空", "猪八戒", "唐僧"]
+        #  self.data = []
 
     def initView(self):
 
-
+        self.setWindowIcon(QIcon("images/timg.jpg"))
+        self.setWindowTitle("抽奖系统")
         self.roll.clicked.connect(self.roll_click)
         self.stop.clicked.connect(self.stop_click)
         self.add.clicked.connect(self.add_message)
+        # 设置背景
+        self.palette = QPalette()
+        background_color = QColor()
+        background_color.setNamedColor('#88ff0000')
+        self.palette.setColor(QPalette.Window, background_color)
+        self.show_name.setPalette(self.palette)
+
+        palette1 = QPalette()
+        palette1.setColor(self.backgroundRole(), QColor(192,253,123))   # 设置背景颜色
+        self.setPalette(palette1)
+
+        self.label.setPalette(self.palette)
+        self.label_2.setPalette(self.palette)
+        self.label_3.setPalette(self.palette)
+        self.label_4.setPalette(self.palette)
+        self.label_5.setPalette(self.palette)
+        self.label_6.setPalette(self.palette)
+        self.label_7.setPalette(self.palette)
+        self.label_8.setPalette(self.palette)
+        self.label_9.setPalette(self.palette)
+        self.label_10.setPalette(self.palette)
+        self.label_11.setPalette(self.palette)
+        self.label_12.setPalette(self.palette)
+
+        self.label_14.setPalette(self.palette)
+        self.label_15.setPalette(self.palette)
+        self.label_16.setPalette(self.palette)
+        self.label_17.setPalette(self.palette)
+        self.label_18.setPalette(self.palette)
+        self.label_19.setPalette(self.palette)
+        self.label_20.setPalette(self.palette)
+        self.label_21.setPalette(self.palette)
+        self.label_22.setPalette(self.palette)
+
+
+
 
 
     def add_message(self):
@@ -71,10 +113,26 @@ class LuckyForm(QWidget, Ui_Form):
             self.label_10.setText(self.show_name.text())
         elif self.count == 9:
             self.label_11.setText(self.show_name.text())
+        elif self.count == 10:
+            self.label_14.setText(self.show_name.text())
+        elif self.count == 11:
+            self.label_15.setText(self.show_name.text())
+        elif self.count == 12:
+            self.label_16.setText(self.show_name.text())
+        elif self.count == 13:
+            self.label_17.setText(self.show_name.text())
+        elif self.count == 14:
+            self.label_18.setText(self.show_name.text())
+        elif self.count == 15:
+            self.label_19.setText(self.show_name.text())
+        elif self.count == 16:
+            self.label_20.setText(self.show_name.text())
+        elif self.count == 17:
+            self.label_21.setText(self.show_name.text())
+        elif self.count == 18:
+            self.label_22.setText(self.show_name.text())
         else:
-            self.list_check.append(self.show_name.text())
-            print(self.list_check)
-
+            print("结束了")
 
     def stop_click(self):
         if not self.flag:

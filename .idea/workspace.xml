@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98def159-38e0-44ef-bef5-096382c89ac1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TempTest/test1.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/01.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/timg.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calllucky.py" afterPath="$PROJECT_DIR$/calllucky.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lucky.py" afterPath="$PROJECT_DIR$/lucky.py" />
@@ -20,12 +21,12 @@
       <file leaf-file-name="lucky.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lucky.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="-440">
+              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="13" />
               <folding>
-                <marker date="1521164729402" expanded="true" signature="287:861" ph="..." />
-                <marker date="1521164729402" expanded="true" signature="287:2785" ph="..." />
-                <marker date="1521164729402" expanded="true" signature="8463:8466" ph="..." />
+                <marker date="1521357436278" expanded="true" signature="258:15240" ph="..." />
+                <marker date="1521357436278" expanded="true" signature="287:349" ph="..." />
+                <marker date="1521357436278" expanded="true" signature="15150:15240" ph="..." />
               </folding>
             </state>
           </provider>
@@ -34,8 +35,8 @@
       <file leaf-file-name="calllucky.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/calllucky.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="84" column="49" lean-forward="false" selection-start-line="84" selection-start-column="49" selection-end-line="84" selection-end-column="49" />
+            <state relative-caret-position="392">
+              <caret line="24" column="139" lean-forward="false" selection-start-line="24" selection-start-column="139" selection-end-line="24" selection-end-column="139" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -43,11 +44,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="test1.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TempTest/test1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="38" column="18" lean-forward="true" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+            <state relative-caret-position="805">
+              <caret line="38" column="18" lean-forward="false" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -58,7 +69,7 @@
       <file leaf-file-name="QtWidgets.pyi" pinned="false" current-in-tab="false">
         <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/PyQt5/QtWidgets.pyi">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
+            <state relative-caret-position="67229">
               <caret line="2930" column="18" lean-forward="false" selection-start-line="2930" selection-start-column="10" selection-end-line="2930" selection-end-column="18" />
               <folding />
             </state>
@@ -98,6 +109,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>send</find>
+      <find>white</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -120,13 +132,14 @@
         <option value="$PROJECT_DIR$/test2.py" />
         <option value="$PROJECT_DIR$/images/lucky.py" />
         <option value="$PROJECT_DIR$/TempTest/test1.py" />
+        <option value="$PROJECT_DIR$/lucky.py" />
         <option value="$PROJECT_DIR$/calllucky.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="70" />
-    <option name="y" value="206" />
+    <option name="x" value="272" />
+    <option name="y" value="49" />
     <option name="width" value="1406" />
     <option name="height" value="1047" />
   </component>
@@ -146,7 +159,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -154,6 +166,11 @@
             <path>
               <item name="PyQt5Test" type="b2602c69:ProjectViewProjectNode" />
               <item name="PyQt5Test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PyQt5Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PyQt5Test" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PyQt5Test" type="b2602c69:ProjectViewProjectNode" />
@@ -168,6 +185,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -176,6 +194,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PyQt5Master\PyQt5Test\images" />
       <recent name="D:\PyQt5Master\PyQt5Test" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -314,7 +333,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.118336886" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0858209" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3188248" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -322,7 +341,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3569097" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3989011" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -344,8 +363,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test2.py" />
-    <entry file="file://$PROJECT_DIR$/callSignal03.py" />
     <entry file="file://$PROJECT_DIR$/CallMainWin02.py" />
     <entry file="file://$PROJECT_DIR$/drawpen.py" />
     <entry file="file://$PROJECT_DIR$/MainWin02.py" />
@@ -402,6 +419,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
           <caret line="270" column="8" lean-forward="false" selection-start-line="270" selection-start-column="8" selection-end-line="270" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -415,22 +433,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lucky.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <marker date="1521164729402" expanded="true" signature="287:861" ph="..." />
-            <marker date="1521164729402" expanded="true" signature="287:2785" ph="..." />
-            <marker date="1521164729402" expanded="true" signature="8463:8466" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TempTest/test1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="38" column="18" lean-forward="true" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+        <state relative-caret-position="805">
+          <caret line="38" column="18" lean-forward="false" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
@@ -439,16 +445,44 @@
     </entry>
     <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/PyQt5/QtWidgets.pyi">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
+        <state relative-caret-position="67229">
           <caret line="2930" column="18" lean-forward="false" selection-start-line="2930" selection-start-column="10" selection-end-line="2930" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/PyQt5/QtGui.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="5248" column="8" lean-forward="false" selection-start-line="5248" selection-start-column="8" selection-end-line="5248" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lucky.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-440">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <marker date="1521357436278" expanded="true" signature="258:15240" ph="..." />
+            <marker date="1521357436278" expanded="true" signature="287:349" ph="..." />
+            <marker date="1521357436278" expanded="true" signature="15150:15240" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/calllucky.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="84" column="49" lean-forward="false" selection-start-line="84" selection-start-column="49" selection-end-line="84" selection-end-column="49" />
+        <state relative-caret-position="392">
+          <caret line="24" column="139" lean-forward="false" selection-start-line="24" selection-start-column="139" selection-end-line="24" selection-end-column="139" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
